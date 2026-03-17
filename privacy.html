@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizlilik Politikası - Öğrenci Takip Sistemi</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f7fa; color: #333; line-height: 1.8; }
+        .header { background: linear-gradient(135deg, #4F6AF5, #6C63FF); color: white; padding: 40px 20px; text-align: center; }
+        .header h1 { font-size: 1.8rem; }
+        .container { max-width: 750px; margin: 0 auto; padding: 40px 20px; }
+        .card { background: white; border-radius: 12px; padding: 35px; box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+        h2 { color: #4F6AF5; margin: 25px 0 10px; font-size: 1.2rem; }
+        p { margin-bottom: 12px; }
+        ul { margin: 10px 0 15px 25px; }
+        li { margin-bottom: 5px; }
+        a { color: #4F6AF5; }
+        .back { display: inline-block; margin-bottom: 20px; color: #4F6AF5; text-decoration: none; }
+        .footer { text-align: center; padding: 30px 20px; color: #999; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Gizlilik Politikası</h1>
+    </div>
+    <div class="container">
+        <a href="index.html" class="back">← Ana Sayfa</a>
+        <div class="card">
+            <p><strong>Son güncelleme:</strong> 17 Mart 2026</p>
+            <p>Öğrenci Takip Sistemi ("Uygulama") olarak kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, topladığımız bilgileri ve bunları nasıl kullandığımızı açıklamaktadır.</p>
+
+            <h2>1. Toplanan Bilgiler</h2>
+            <p>Uygulamamız aşağıdaki bilgileri toplar ve işler:</p>
+            <ul>
+                <li><strong>Hesap Bilgileri:</strong> E-posta adresi ve şifre (Firebase Authentication aracılığıyla)</li>
+                <li><strong>Öğrenci Bilgileri:</strong> Ad-soyad, sınıf, branş, veli iletişim bilgileri</li>
+                <li><strong>Ders Bilgileri:</strong> Ders tarihleri, saatleri, ücret bilgileri</li>
+                <li><strong>Sınav Bilgileri:</strong> Deneme sınavı sonuçları (doğru, yanlış, boş sayıları)</li>
+                <li><strong>Ödev Bilgileri:</strong> Ödev içerikleri ve teslim durumları</li>
+                <li><strong>Ödeme Bilgileri:</strong> Ders ücretleri ve ödeme durumları</li>
+            </ul>
+
+            <h2>2. Bilgilerin Kullanımı</h2>
+            <p>Topladığımız bilgiler yalnızca aşağıdaki amaçlarla kullanılır:</p>
+            <ul>
+                <li>Uygulamanın temel işlevlerini sağlamak (ders planlama, öğrenci takibi, ödeme yönetimi)</li>
+                <li>Kullanıcı hesabını yönetmek ve kimlik doğrulaması yapmak</li>
+                <li>Yerel bildirimler göndermek (ders hatırlatmaları)</li>
+                <li>Abonelik durumunu yönetmek</li>
+            </ul>
+
+            <h2>3. Veri Depolama ve Güvenlik</h2>
+            <p>Verileriniz Google Firebase altyapısında güvenli şekilde saklanmaktadır. Firebase, endüstri standardı güvenlik önlemleri kullanır ve veriler şifreli olarak iletilir.</p>
+            <p>Kredi kartı veya banka bilgileriniz tarafımızca saklanmaz. Abonelik ödemeleri Apple tarafından işlenir.</p>
+
+            <h2>4. Üçüncü Taraf Hizmetler</h2>
+            <p>Uygulamamız aşağıdaki üçüncü taraf hizmetlerini kullanmaktadır:</p>
+            <ul>
+                <li><strong>Firebase (Google):</strong> Kimlik doğrulama, veritabanı ve dosya depolama</li>
+                <li><strong>RevenueCat:</strong> Abonelik yönetimi</li>
+                <li><strong>Apple App Store:</strong> Ödeme işlemleri</li>
+            </ul>
+
+            <h2>5. Veri Paylaşımı</h2>
+            <p>Kişisel verileriniz üçüncü taraflarla satılmaz, kiralanmaz veya paylaşılmaz. Verileriniz yalnızca uygulamanın işlevselliği için gerekli olan üçüncü taraf hizmet sağlayıcılarla (Firebase, RevenueCat) paylaşılır.</p>
+            <p>Öğretmen tarafından oluşturulan veli hesapları, yalnızca ilgili öğrencinin ders, ödev, sınav ve ödeme bilgilerine erişebilir.</p>
+
+            <h2>6. Kullanıcı Hakları</h2>
+            <p>Kullanıcılarımız aşağıdaki haklara sahiptir:</p>
+            <ul>
+                <li>Hesabını ve tüm verilerini silme hakkı</li>
+                <li>Verilerine erişim talep etme hakkı</li>
+                <li>Verilerinin düzeltilmesini isteme hakkı</li>
+            </ul>
+            <p>Bu haklarınızı kullanmak için <a href="mailto:yasinyel.dev@gmail.com">yasinyel.dev@gmail.com</a> adresine e-posta gönderebilirsiniz.</p>
+
+            <h2>7. Çocukların Gizliliği</h2>
+            <p>Uygulamamız öğretmenler ve veliler tarafından kullanılmak üzere tasarlanmıştır. 13 yaşın altındaki çocuklardan bilerek doğrudan kişisel bilgi toplamayız. Öğrenci bilgileri, öğretmen veya veli tarafından girilir ve yönetilir.</p>
+
+            <h2>8. Bildirimler</h2>
+            <p>Uygulamamız yalnızca yerel bildirimler kullanır (ders hatırlatmaları). Push bildirim veya pazarlama bildirimi gönderilmez.</p>
+
+            <h2>9. Değişiklikler</h2>
+            <p>Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler yapıldığında kullanıcılar bilgilendirilecektir.</p>
+
+            <h2>10. İletişim</h2>
+            <p>Gizlilik politikamız hakkında sorularınız için:</p>
+            <p><strong>E-posta:</strong> <a href="mailto:yasinyel.dev@gmail.com">yasinyel.dev@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2026 Öğrenci Takip Sistemi. Tüm hakları saklıdır.</p>
+    </div>
+</body>
+</html>
